@@ -25,6 +25,7 @@
 
 .nav-center a, .nav-secondary a{
     font-size: 1.25rem;
+    color: #333;
 }
 
 .nav-center a:hover, .nav-secondary a:hover{
