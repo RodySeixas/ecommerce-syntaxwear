@@ -1,0 +1,105 @@
+/* Estilos para o rodapé */
+.footer {
+    background-color: #333;
+    color: #fff;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 2.5rem;
+}
+
+.footer-container {
+    display: flex;
+    gap: 155px;
+    justify-content: space-between;
+    max-width: 1360px;
+    margin: 0 auto;
+    border-bottom: 1px solid #fff;
+    padding: 2.5rem;
+}
+
+.footer-contato{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.footer-contato h4 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.footer-contato .footer-socials h3{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #ededed;
+    margin-bottom: 16px;
+    letter-spacing: 8%;
+}
+
+.footer-nav h3{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #ededed;
+    margin-bottom: 16px;
+}
+
+.footer-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.footer-column ul li a:hover {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+.footer-newsletter input {
+    margin-bottom: 22px;
+    padding: 12px 20px;
+    border-radius: 30px;
+    width: 344px;
+}
+
+input::placeholder {
+  color: #aaaaaa;
+  font-weight: 400;
+}
+
+.footer-socials ul {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-socials img {
+    width: 32px;
+    height: 32px;
+}
+
+.footer-socials img:hover {
+    opacity: 0.7;
+}   
+
+.footer-nav{
+    display: flex;
+    gap: 19px;
+}
+
+.footer-nav .footer-column{
+    width: 141px
+}
+
+.footer-copyright {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #fff;
+}
