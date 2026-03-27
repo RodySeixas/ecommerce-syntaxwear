@@ -49,3 +49,9 @@
     background: url('../assets/img/produtos/tênis futurista.jpg') no-repeat center;
     background-size: cover;
 }
+
+@media (max-width:768px) {
+    .category-card{
+        width: 100%;
+    }
+}

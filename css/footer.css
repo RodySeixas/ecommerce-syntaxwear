@@ -103,3 +103,25 @@ input::placeholder {
     font-weight: 500;
     color: #fff;
 }
+
+@media (max-width: 1380px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .footer-nav{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-socials ul {
+        gap: 1rem;
+    }
+
+    .footer-copyright {
+        font-size: 1rem;
+        padding: 1.5rem 0 1.5rem;
+    }
+}

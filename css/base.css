@@ -3,14 +3,20 @@ body {
     color: #333;
 }
 
-main{
+main {
     padding: 2.5rem 0 0;
     max-width: 1440px;
     margin: 0 auto;
     padding: 2.5rem;
 }
 
-.btn{
+@media (max-width: 1380px) {
+    main {
+        padding: 0.625rem;
+    }
+}
+
+.btn {
     font-size: 1.25rem;
     width: 161px;
     height: 48px;
@@ -21,18 +27,18 @@ main{
     transition: background-color 0.3s, border 0.3s;
 }
 
-.btn-outline{
+.btn-outline {
     background-color: transparent;
     border: 2px solid #fff;
     line-height: 23px;
 }
 
-.btn-filled{
+.btn-filled {
     background-color: #fff;
     color: #6329A2;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #6329A2;
     color: #fff;
     border-color: #6329A2;
