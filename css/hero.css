@@ -44,7 +44,7 @@
 @media (max-width: 768px) {
     .hero-section{
         height: 660px;
-        background-image: url(../../assets/img/produtos/car_imagem-responsivo.JPG);
+        background-image: url(../assets/img/banners/hero-responsivo.JPG);
 
     }
 
